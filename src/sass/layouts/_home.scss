@@ -77,9 +77,6 @@ body {
     }
   }
   &__img {
-    // object-fit: cover;
-    // object-position: 20% 30px;
-    // cursor: pointer;
     overflow: hidden;
     width: 128px;
     height: 161px;
@@ -218,7 +215,6 @@ body {
   width: 98%;
   z-index: -1;
   height: 2946px;
-  // min-height: 100vh;
   overflow: hidden;
   @media screen and (max-width: 767px) {
     display: none;
@@ -312,13 +308,11 @@ body {
   }
 
   &__right {
-    // position: absolute;
     top: 0;
     right: 5%;
     z-index: -1;
   }
   &__left {
-    // position: absolute;
     top: 0;
     left: 5%;
     z-index: -1;

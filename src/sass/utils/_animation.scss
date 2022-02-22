@@ -1,10 +1,4 @@
-// .title {
-//     animation: tada;
-//     animation-duration: 1s;
-// }
-// body {
-//   filter: blur(3px);
-// }
+
 .logo {
   animation: fadeInTopLeft;
   animation-duration: 2s;
@@ -30,13 +24,11 @@
 }
 
 .search__list {
-  // display: inline-block;
   animation: pulse;
   animation-duration: 1.5s;
 }
 
 .search__img {
-  // display: inline-block;
   animation: pulse;
   animation-duration: 1s;
   :hover {
@@ -55,13 +47,6 @@
     animation: tada;
     animation-duration: 2s;
   }
-}
-
-.about-card__team li {
-  //  :hover {
-  //     animation: pulse;
-  //     animation-duration: 2s;
-  // }
 }
 
 .header__overlay_bottom {
