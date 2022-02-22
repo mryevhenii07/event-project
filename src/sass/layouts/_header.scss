@@ -11,7 +11,6 @@
     padding: 40px 50px;
   }
 }
-
 .header__background,
 .header__overlay,
 .header__overlay_bottom {
@@ -78,7 +77,6 @@
     color: rgb(20, 15, 15);
   }
 }
-
 .logo {
   position: absolute;
   top: 0;
@@ -277,8 +275,6 @@
   padding-left: 40px;
 }
 
-// ===== Стили для оформления секции nice-select =====
-
 .a-select {
   display: none;
 }
@@ -397,9 +393,6 @@
     width: 8px;
   }
 }
-
-// ===== Стили для оформления секции Voice Command =====
-
 .search-form {
   position: relative;
 }
@@ -434,8 +427,6 @@
     transition: all 0.3s ease;
   }
 }
-//==================Spiner========================
-
 #html-spinner {
   width: 40px;
   height: 40px;
@@ -491,17 +482,12 @@
     transform: rotate(360deg);
   }
 }
-
-/* Rest of page style*/
-
 #container__spinner {
   width: 90%;
   max-width: 700px;
   margin: 1em auto;
   position: relative;
 }
-
-/* spinner positioning */
 
 #svg-spinner {
   position: absolute;
@@ -513,7 +499,6 @@
     left: 41%;
   }
 }
-
 #svg-para {
   position: absolute;
 
