@@ -13,7 +13,7 @@ function onClickCard(event) {
     modal.classList.remove('visually-hidden');
     setTimeout(() => {
       Notiflix.Notify.info(' 👈 Here You Can See More Information About This EVENT ');
-    }, 300);
+    }, 350);
     fetchEvent(event.target.id);
   }
 }
