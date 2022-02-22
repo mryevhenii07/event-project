@@ -1,11 +1,7 @@
 const modalEl = document.querySelector('.event-card');
-
-
 function renderModal(item,info) {
-
   const maxStandart = Math.floor(item.priceRanges[0].max / 2);
   const minVip = Math.ceil(item.priceRanges[0].max / 2);
-
   const modalInfo = `
     <div class="event-card__img-box">
       <img
@@ -60,5 +56,4 @@ function renderModal(item,info) {
 
   modalEl.innerHTML = modalInfo;
 }
-
 export default renderModal;
