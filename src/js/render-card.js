@@ -6,6 +6,12 @@ function renderCard(info) {
   } else {
     const cardMarkup = info
       .map(item => {
+        // console.log(item);
+        // console.log(item.name);
+        // console.log(item.dates.start.localDate);
+        // console.log(item._embedded.venues[0].name);
+        // console.log(item.images[1].url);
+        //  console.log(item.id);
         return `
     <li id="${item.id}" class="search__item">    
       <div id="${item.id}" class="search__card">
@@ -26,9 +32,12 @@ function renderCard(info) {
     </li>`;
       })
       .join('');
+
     cardEL.innerHTML = cardMarkup;
+
     const spanText = document.querySelectorAll('.card-text__name');
     removeAnimationSpanText([...spanText]);
+
     const placeText = document.querySelectorAll('.card-text__place');
     removeAnimationPlaceText([...placeText]);
   }
@@ -40,6 +49,7 @@ function removeAnimationSpanText(nameItems) {
     }
   });
 }
+
 function removeAnimationPlaceText(placeItems) {
   const placeMap = placeItems.map(item => {
     if (item.textContent.length < 75) {
@@ -47,4 +57,5 @@ function removeAnimationPlaceText(placeItems) {
     }
   });
 }
+
 export default renderCard;
