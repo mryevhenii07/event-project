@@ -46,25 +46,18 @@
   display: block;
   width: 100%;
   text-align: center;
-
-  // padding: 17px;
   @media screen and (min-width: 768px) and (max-width: 1279px) {
   }
   @media screen and (min-width: 1280px) {
-    // padding: 30px 30px 62px;
   }
-
   &__position {
     display: flex;
   }
-
   &__img-box-big {
     display: none;
     overflow: hidden;
     box-shadow: 4px 0px 8px 8px rgba(34, 60, 80, 0.3);
-
     border-radius: 10px 10px 10px 10px;
-
     img {
       display: block;
       object-fit: cover;
@@ -116,14 +109,11 @@
     position: absolute;
     width: 17px;
     height: 17px;
-    // margin-left: -17px;
     @media screen and (min-width: 768px) and (max-width: 1279px) {
-      // margin-left: -20px;
       width: 20px;
       height: 20px;
     }
     @media screen and (min-width: 1280px) {
-      // margin-left: -25px;
       width: 25px;
       height: 25px;
     }
@@ -142,8 +132,6 @@
     }
     @media screen and (min-width: 1280px) {
       margin-bottom: 41px;
-      // width: 132px;
-      // height: 132px;
       width: 125px;
       height: 125px;
     }
@@ -160,7 +148,6 @@
     @media screen and (min-width: 768px) and (max-width: 1279px) {
       width: 56%;
       margin-left: 30px;
-      // margin-left: auto;
       text-align: left;
     }
     @media screen and (min-width: 1280px) {
@@ -189,15 +176,12 @@
       @media screen and (min-width: 1280px) {
         text-align: left;
         margin-bottom: 7px;
-        // font-size: 24px;
         font-size: 17px;
         margin-top: 10px;
-        // margin-top: 20px;
       }
     }
 
     p {
-      // margin-bottom: 10px;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -207,17 +191,11 @@
       @media screen and (min-width: 768px) and (max-width: 1279px) {
         font-size: 16px;
         text-align: left;
-        // margin-bottom: 10px;
       }
       @media screen and (min-width: 1280px) {
         text-align: left;
-        // font-size: 18px;
         font-size: 15px;
       }
-      // @media screen and (min-width: 768px) and (max-width: 1279px) {
-      // }
-      // @media screen and (min-width: 1280px) {
-      // }
     }
 
     a {
@@ -234,8 +212,8 @@
       @media screen and (min-width: 768px) and (max-width: 1279px) {
         margin-bottom: 15px;
       }
+
       @media screen and (min-width: 1280px) {
-        // margin-bottom: 31px;
         margin-bottom: 15px;
       }
     }
@@ -328,8 +306,6 @@
     }
   }
 }
-
-// ========= SCROLL INFO ==========
 #element {
   overflow: hidden;
   overflow-y: scroll;
